@@ -28,7 +28,7 @@ const demoVideos = [
     // 大屏幕(1200px及以上)使用iframe嵌入
     iframeUrl: 'https://coss.yupoo.com/upchat/2025-11-13/1763043527325.mp4',
     // 小屏幕(1199px及以下)使用video标签，将视频缩小分辨率后，上传到图床得到的链接
-    videoUrl: 'https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757994600673_qdqqd_folzzk.mp4',
+    videoUrl: 'https://coss.yupoo.com/upchat/2025-11-13/1763043527325.mp4',
     // 强制在所有分辨率下都使用video标签（优先级高于iframe）true是强制，flase 不强制
     forceUseVideo: false
   },
@@ -36,9 +36,9 @@ const demoVideos = [
     id: '2',
     name: '背景视频',
     // 大屏幕使用iframe（如果有的话，否则使用video）
-    iframeUrl: 'https://open.douyin.com/player/video?vid=7550609690003016975&autoplay=0',
+    iframeUrl: 'https://coss.yupoo.com/upchat/2025-11-13/1763044574862.mp4',
     // 小屏幕使用video标签，将视频缩小分辨率后，上传到图床得到的链接
-    videoUrl: 'https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757106279712_qdqqd_lf6cky.mp4',
+    videoUrl: 'https://coss.yupoo.com/upchat/2025-11-13/1763044574862.mp4',
     // 强制在所有分辨率下都使用video标签，true是强制，flase 不强制
     forceUseVideo: false
   },
@@ -46,9 +46,9 @@ const demoVideos = [
     id: '3',
     name: '抖音混剪视频2',
     // 大屏幕使用iframe嵌入
-    iframeUrl: 'https://open.douyin.com/player/video?vid=7549724329085242639&autoplay=0',
+    iframeUrl: 'https://coss.yupoo.com/upchat/2025-11-13/1763044574862.mp4',
     // 小屏幕使用video标签（备用视频），将视频缩小分辨率后，上传到图床得到的链接
-    videoUrl: 'https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1758021175507_qdqqd_obu80e.mp4',
+    videoUrl: 'https://coss.yupoo.com/upchat/2025-11-13/1763044574862.mp4',
     // 强制在所有分辨率下都使用video标签，true是强制，flase 不强制
     forceUseVideo: false
   }
