@@ -26,7 +26,7 @@ const demoVideos = [
     id: '1',
     name: '抖音混剪视频',
     // 大屏幕(1200px及以上)使用iframe嵌入
-    iframeUrl: 'file:///C:/Users/20425/Desktop/cd9bb4eb3b430e7bfc2a9fa7541f981a.mp4',
+    iframeUrl: 'https://coss.yupoo.com/upchat/2025-11-13/1763043527325.mp4',
     // 小屏幕(1199px及以下)使用video标签，将视频缩小分辨率后，上传到图床得到的链接
     videoUrl: 'https://s3plus.meituan.net/opapisdk/op_ticket_885190757_1757994600673_qdqqd_folzzk.mp4',
     // 强制在所有分辨率下都使用video标签（优先级高于iframe）true是强制，flase 不强制
