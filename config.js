@@ -9,7 +9,7 @@ const CONFIG = { // 主配置对象，包含网站所有配置项
     // ====================================
     site: { // 网站基础信息配置
         title: "安渡- 燕云十六声百业搜索", // 网站标题，显示在浏览器标签页
-        description: "安渡致力于展示各流派咸鱼人生的风采。" // 网站描述，用于SEO优化
+        description: "各宗各派显神通，悠客风骨震武林，但求自在随心" // 网站描述，用于SEO优化
     },
 
     // ====================================
@@ -43,7 +43,7 @@ const CONFIG = { // 主配置对象，包含网站所有配置项
         subtitle: "兹有数位侠义之士，仗剑江湖，侠肝义胆，取世外之地，建桃源之部，以渡为意、安者其名，许此安定乾坤，渡万千苦厄", // 首页副标题描述文字
         // 首页背景
         background: { // 首页背景媒体配置对象
-            url: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/background/background1.avif", // 背景媒体文件URL地址
+            url: "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763037868926_qdqqd_mae9jm.avif", // 背景媒体文件URL地址
             type: "auto", // 媒体类型检测方式（auto自动检测/video视频/image图片）
             fallback: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/background/background1.avif" // 备用图片地址（当主媒体加载失败时使用）
         },
