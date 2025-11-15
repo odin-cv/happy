@@ -45,7 +45,7 @@ const CONFIG = { // 主配置对象，包含网站所有配置项
         background: { // 首页背景媒体配置对象
             url: "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763037868926_qdqqd_mae9jm.avif", // 背景媒体文件URL地址
             type: "auto", // 媒体类型检测方式（auto自动检测/video视频/image图片）
-            fallback: "https://gitee.com/tx-feng/FengHuaWuQue/raw/Vue/Static/background/background1.avif" // 备用图片地址（当主媒体加载失败时使用）
+            fallback: "https://s3plus.meituan.net/opapisdk/op_ticket_1_5677168484_1763037868926_qdqqd_mae9jm.avif" // 备用图片地址（当主媒体加载失败时使用）
         },
         // 首页遮罩层
         overlay: "linear-gradient(135deg, rgba(26, 32, 44, 0.7) 0%, rgba(141, 54, 212, 0.3) 50%, rgba(74, 85, 104, 0.3) 100%)", // 首页背景遮罩层渐变效果，rgba最后一位数是透明度，前三位数是颜色数据，具体看gitee常用命令上方的基础颜色
